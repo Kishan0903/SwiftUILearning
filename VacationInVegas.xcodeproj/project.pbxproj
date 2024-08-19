@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFFB5F732C6B68A4001708FE /* VacationInVegasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB5F722C6B68A4001708FE /* VacationInVegasApp.swift */; };
+		CFFB5F752C6B68A4001708FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB5F742C6B68A4001708FE /* ContentView.swift */; };
+		CFFB5F772C6B68A8001708FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFB5F762C6B68A8001708FE /* Assets.xcassets */; };
+		CFFB5F7A2C6B68A8001708FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFB5F792C6B68A8001708FE /* Preview Assets.xcassets */; };
+		CFFB5F812C6B8836001708FE /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB5F802C6B8836001708FE /* Symbol.swift */; };
+		CFFB5F832C6B8F62001708FE /* ScrollImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB5F822C6B8F62001708FE /* ScrollImage.swift */; };
+		CFFB5F852C6B9412001708FE /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB5F842C6B9412001708FE /* Place.swift */; };
+		CFFB5F872C6CAAC1001708FE /* Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB5F862C6CAAC1001708FE /* Scrolling.swift */; };
+		CFFB5F892C6CC3CF001708FE /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB5F882C6CC3CF001708FE /* PlaceList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFFB5F6F2C6B68A4001708FE /* VacationInVegas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacationInVegas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFB5F722C6B68A4001708FE /* VacationInVegasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationInVegasApp.swift; sourceTree = "<group>"; };
+		CFFB5F742C6B68A4001708FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFFB5F762C6B68A8001708FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFFB5F792C6B68A8001708FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFFB5F802C6B8836001708FE /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		CFFB5F822C6B8F62001708FE /* ScrollImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollImage.swift; sourceTree = "<group>"; };
+		CFFB5F842C6B9412001708FE /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		CFFB5F862C6CAAC1001708FE /* Scrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrolling.swift; sourceTree = "<group>"; };
+		CFFB5F882C6CC3CF001708FE /* PlaceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFB5F6C2C6B68A4001708FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFFB5F662C6B68A4001708FE = {
+			isa = PBXGroup;
+			children = (
+				CFFB5F712C6B68A4001708FE /* VacationInVegas */,
+				CFFB5F702C6B68A4001708FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFB5F702C6B68A4001708FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFB5F6F2C6B68A4001708FE /* VacationInVegas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFB5F712C6B68A4001708FE /* VacationInVegas */ = {
+			isa = PBXGroup;
+			children = (
+				CFFB5F722C6B68A4001708FE /* VacationInVegasApp.swift */,
+				CFFB5F742C6B68A4001708FE /* ContentView.swift */,
+				CFFB5F882C6CC3CF001708FE /* PlaceList.swift */,
+				CFFB5F802C6B8836001708FE /* Symbol.swift */,
+				CFFB5F822C6B8F62001708FE /* ScrollImage.swift */,
+				CFFB5F842C6B9412001708FE /* Place.swift */,
+				CFFB5F862C6CAAC1001708FE /* Scrolling.swift */,
+				CFFB5F762C6B68A8001708FE /* Assets.xcassets */,
+				CFFB5F782C6B68A8001708FE /* Preview Content */,
+			);
+			path = VacationInVegas;
+			sourceTree = "<group>";
+		};
+		CFFB5F782C6B68A8001708FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFFB5F792C6B68A8001708FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFFB5F6E2C6B68A4001708FE /* VacationInVegas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFB5F7D2C6B68A8001708FE /* Build configuration list for PBXNativeTarget "VacationInVegas" */;
+			buildPhases = (
+				CFFB5F6B2C6B68A4001708FE /* Sources */,
+				CFFB5F6C2C6B68A4001708FE /* Frameworks */,
+				CFFB5F6D2C6B68A4001708FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VacationInVegas;
+			productName = VacationInVegas;
+			productReference = CFFB5F6F2C6B68A4001708FE /* VacationInVegas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFB5F672C6B68A4001708FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CFFB5F6E2C6B68A4001708FE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CFFB5F6A2C6B68A4001708FE /* Build configuration list for PBXProject "VacationInVegas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFFB5F662C6B68A4001708FE;
+			productRefGroup = CFFB5F702C6B68A4001708FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFB5F6E2C6B68A4001708FE /* VacationInVegas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFFB5F6D2C6B68A4001708FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFB5F7A2C6B68A8001708FE /* Preview Assets.xcassets in Resources */,
+				CFFB5F772C6B68A8001708FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFFB5F6B2C6B68A4001708FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFB5F752C6B68A4001708FE /* ContentView.swift in Sources */,
+				CFFB5F832C6B8F62001708FE /* ScrollImage.swift in Sources */,
+				CFFB5F892C6CC3CF001708FE /* PlaceList.swift in Sources */,
+				CFFB5F812C6B8836001708FE /* Symbol.swift in Sources */,
+				CFFB5F852C6B9412001708FE /* Place.swift in Sources */,
+				CFFB5F732C6B68A4001708FE /* VacationInVegasApp.swift in Sources */,
+				CFFB5F872C6CAAC1001708FE /* Scrolling.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFFB5F7B2C6B68A8001708FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFFB5F7C2C6B68A8001708FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFB5F7E2C6B68A8001708FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VacationInVegas/Preview Content\"";
+				DEVELOPMENT_TEAM = L9P48JQT3D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kishan.VacationInVegas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFFB5F7F2C6B68A8001708FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VacationInVegas/Preview Content\"";
+				DEVELOPMENT_TEAM = L9P48JQT3D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kishan.VacationInVegas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFFB5F6A2C6B68A4001708FE /* Build configuration list for PBXProject "VacationInVegas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFB5F7B2C6B68A8001708FE /* Debug */,
+				CFFB5F7C2C6B68A8001708FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFB5F7D2C6B68A8001708FE /* Build configuration list for PBXNativeTarget "VacationInVegas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFB5F7E2C6B68A8001708FE /* Debug */,
+				CFFB5F7F2C6B68A8001708FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFB5F672C6B68A4001708FE /* Project object */;
+}
